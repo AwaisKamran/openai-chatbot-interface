@@ -1,10 +1,6 @@
 {
   "name": "exploring-angular",
   "version": "0.0.0",
-  "engines": {
-    "node": "20.8.1",
-    "npm": "10.1.0"
-  },
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
