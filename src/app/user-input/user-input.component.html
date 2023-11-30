@@ -1,0 +1,12 @@
+<section class="user-input-container">
+  <input
+    class="input-textfield"
+    [(ngModel)]="message"
+    placeholder="What's on your mind?"
+    type="text"
+    (keyup)="onKeyUp($event)"
+  />
+  <button class="button" (click)="sendMessage()">
+    <span class="material-symbols-outlined"> send </span>
+  </button>
+</section>

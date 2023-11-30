@@ -1,0 +1,27 @@
+.header-container{
+    display: flex;
+    background-color: #265073;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.heading{
+    margin-left: 5px;
+}
+
+.beta{
+    font-size: 12px;
+    background-color: #3f6f98;
+    margin-left: 5px;
+    width: fit-content;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-top: 10px;
+}

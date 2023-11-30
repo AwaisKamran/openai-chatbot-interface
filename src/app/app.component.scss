@@ -1,0 +1,12 @@
+.app-container{
+    display: flex;
+    min-height: 100dvh;
+    flex-direction: column;
+
+    app-message-panel{
+        flex: 1;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+    }
+}

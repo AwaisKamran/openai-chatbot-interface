@@ -1,0 +1,5 @@
+<section class="app-container">
+  <app-header></app-header>
+  <app-message-panel [messages]="data" [loading]="loading"></app-message-panel>
+  <app-user-input (sendMessageEmitter)="getMessage($event)"></app-user-input>
+</section>

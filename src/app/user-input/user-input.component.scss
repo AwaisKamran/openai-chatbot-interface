@@ -1,0 +1,47 @@
+.user-input-container{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #87cbe0;
+    padding: 10px;
+    
+    .input-textfield{
+        height: 40px;
+        outline: 0;
+        border: none;
+        width: 95%;
+        border-radius: 8px;
+        padding: 2px 5px 2px 5px;
+        font-family: "Roboto";
+        padding-left: 20px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .input-textfield::placeholder{
+        font-family: "Roboto";
+    }
+
+    .button{
+        display: flex;
+        align-items: center;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        color: white;
+        background-color: #007ca1;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        span{
+            margin-left: 5px;
+        }
+    }
+
+    .button:hover{
+        background-color:#237879;
+    }
+}
