@@ -7,7 +7,7 @@ import { OpenAIResponse } from './utility/constants';
   providedIn: 'root'
 })
 export class OpenAIService {
-  api_url: string = 'http://localhost:8000/';
+  api_url: string = "https://openai-chatbot-interface-9ab52001491e.herokuapp.com/" //'http://localhost:8000/';
 
   constructor(private http: HttpClient) { }
 
